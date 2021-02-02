@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".view.fragment.AddMemberFragment">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/idNumber_TV_AddMemberFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="رقم المشترك"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="8dp"/>
+
+        <EditText
+            android:id="@+id/idNumber_ET_AddMemberFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="16dp">
+
+                <RadioButton
+                    android:id="@+id/alex_RBTN_AddMemberFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="شركة الاسكندرية لتوزيع الكهـرباء" />
+                <RadioButton
+                    android:id="@+id/south_delta_RBTN_AddMemberFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="شركة جنوب الدلتا لتوزيع الكهرباء"/>
+                <RadioButton
+                    android:id="@+id/south_cairo_RBTN_AddMemberFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="شركة جنوب القاهرة لتوزيع الكهرباء"/>
+
+            </RadioGroup>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/idName_TV_AddMemberFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="اسم المشترك"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp" />
+
+        <EditText
+            android:id="@+id/idName_ET_AddMemberFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/idRegion_TV_AddMemberFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="المنطقه"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp" />
+
+        <EditText
+            android:id="@+id/idRegion_ET_AddMemberFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/idHome_TV_AddMemberFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="العماره"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp" />
+
+        <EditText
+            android:id="@+id/idHome_ET_AddMemberFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/idFloor_TV_AddMemberFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الطابق"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp" />
+
+        <EditText
+            android:id="@+id/idFloor_ET_AddMemberFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp" />
+
+        <Button
+            android:id="@+id/save_BTN_AddMemberFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="حفظ"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:layout_margin="40dp"
+            android:backgroundTint="@color/Gray"/>
+
+</LinearLayout>

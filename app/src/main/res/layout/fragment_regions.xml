@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".view.fragment.RegionsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <Button
+                android:id="@+id/alex_btn_regions"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_margin="7dp"
+                android:text="شركة الاسكندرية لتوزيع الكهـرباء"
+                android:textStyle="bold"
+                android:backgroundTint="@color/Gray"/>
+
+            <Button
+                android:id="@+id/elQana_btn_regions"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_margin="7dp"
+                android:text="شركـة القنـاه لتوزيـع الكهـرباء"
+                android:textStyle="bold"
+                android:backgroundTint="@color/Gray"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <Button
+                android:id="@+id/north_delta_btn_regions"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_margin="7dp"
+                android:text="شركة شمال الدلتا لتوزيع الكهرباء"
+                android:textStyle="bold"
+                android:backgroundTint="@color/Gray"/>
+
+            <Button
+                android:id="@+id/south_delta_btn_regions"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_margin="7dp"
+                android:text="شركة جنوب الدلتا لتوزيع الكهرباء"
+                android:textStyle="bold"
+                android:backgroundTint="@color/Gray"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <Button
+                android:id="@+id/middle_egypt_btn_regions"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_margin="7dp"
+                android:text="شركة مصر الوسطى لتوزيع الكهرباء"
+                android:textStyle="bold"
+                android:backgroundTint="@color/Gray"/>
+
+            <Button
+                android:id="@+id/north_cairo_btn_regions"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_margin="7dp"
+                android:text="شركة شمال القاهرة لتوزيع الكهرباء"
+                android:textStyle="bold"
+                android:backgroundTint="@color/Gray"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <Button
+                android:id="@+id/beheira_btn_regions"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_margin="7dp"
+                android:text="شركة البحيرة لتوزيع الكهرباء"
+                android:textStyle="bold"
+                android:backgroundTint="@color/Gray"/>
+
+            <Button
+                android:id="@+id/south_cairo_btn_regions"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_margin="7dp"
+                android:text="شركة جنوب القاهرة لتوزيع الكهرباء"
+                android:textStyle="bold"
+                android:backgroundTint="@color/Gray"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

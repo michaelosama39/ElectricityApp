@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "433656579540",
+    "firebase_url": "https://electricity-app-4b709.firebaseio.com",
+    "project_id": "electricity-app-4b709",
+    "storage_bucket": "electricity-app-4b709.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:433656579540:android:e152156ed7a57ec36e0241",
+        "android_client_info": {
+          "package_name": "com.example.electricityapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "433656579540-nqvn3t2ei16pi8ebef2n3v45r2on630g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIPsYV4UsOqhS7U8tuEvilFQkmvApL1Yc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "433656579540-nqvn3t2ei16pi8ebef2n3v45r2on630g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
